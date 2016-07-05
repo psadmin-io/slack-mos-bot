@@ -6,6 +6,7 @@
    	
 	// vars
         $token_key = '***_ADD_TOKEN_***';
+        $help_file = '***_ADD_URL_***';
         $command = $_POST['command'];
         $text = $_POST['text'];
         $token = $_POST['token'];
@@ -54,7 +55,7 @@
         echo json_encode($response);
 
         function generate_help() {
-                return "Slackbot Help - https://psadminio.slack.com/files/kyle/F12PYDA3S/Slackbot_Help";
+                return "Slackbot Help - $helpfile";
         }
 
         function generate_pum($param) {
