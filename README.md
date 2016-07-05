@@ -11,7 +11,6 @@ This was written to be used at http://psadminio.slack.com. It is geared toward u
 * `/mos idea [id]` - link to MOS Community Idea 
 * `/mos dpk` - link to DPK FAQ
 * `/mos pum [home|fscm|hcm|elm|ih|crm|cs]` - link to PUM Home Page or PI schedules
-* 
 
 ## Setup
 * More details to come.
